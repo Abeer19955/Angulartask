@@ -1,0 +1,55 @@
+h1 {
+  background-color: rgb(216, 219, 145);
+  background-size: cover;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(100, 61, 162);
+  text-align: center;
+  border-color: black;
+  border-style: none;
+  background-color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button:hover {
+  background-color: rgb(212, 195, 227);
+  color: white;
+}
+
+table {
+
+  align-items: center;
+  align-content: center;
+  background-color: rgb(191, 128, 189);
+  text-align: center;
+  width: 1000px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#head th {
+  background-color: rgb(167, 213, 208);
+}
+
+.pas {
+  color: rgb(221, 206, 206);
+  background-color: rgb(9, 63, 9);
+}
+
+.fal {
+  color: white;
+  background-color: rgb(156, 11, 11);
+}
+th,td{
+  border:2px solid black;
+}

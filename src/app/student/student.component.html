@@ -1,0 +1,43 @@
+<body>
+  <div>
+      <div class="row">
+          
+          <div class="table">
+              <table id="head" class="table table-striped">
+                  <thead>
+                      <tr>
+                          <th class="text-white">NAME</th>
+                          <th class="text-white">Email</th>
+                          <th class="text-white">Marks(out of 100)</th>
+                          <th class="text-white">Pass/Fail</th>
+                      </tr>
+  
+                  </thead>
+                  
+                  <tbody>
+                      <tr *ngFor="let item of StudentList">
+                          <td>{{item.name}}</td>
+                          <td>{{item.email}}</td>
+                          <td>{{item.mark}}</td>
+                          <td *ngIf="item.mark >= 50"><span class="pas">PASS</span></td>
+                          <td *ngIf="item.mark < 50"><span class="fal">FAIL</span></td>
+                      </tr>
+                  </tbody>
+  
+              </table>
+  
+          </div>
+  
+      </div>
+  
+  
+      <div class="text-center m-auto">
+          
+          <button class="btn btn-primary mt-5 mb-5" routerLink=""><b>Go back to Home Page</b></button>
+  
+      </div>
+  
+  
+  </div>
+  
+  </body>
